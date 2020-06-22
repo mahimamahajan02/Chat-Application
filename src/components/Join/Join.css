@@ -18,7 +18,7 @@ html, body {
     text-align: center;
     height: 100vh;
     align-items: center;
-    background-color: #1A1A1D;
+    background-color: #1f2235;
 }
 
 .joinInnerContainer {
@@ -66,4 +66,22 @@ html, body {
 
 button:focus {
     outline: 0;
+}
+
+.input-box {
+    border: 1px solid rgba(var(--ca6,219,219,219),1) !important;
+    border-radius: 3px !important;
+    box-sizing: border-box !important;
+    align-items: center !important;
+    -webkit-box-align: center !important;
+    flex-direction: row !important;
+    font-size: 14px !important;
+    position: relative !important;
+    width: 100% !important;
+    text-indent: 10px;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px !important;
+    box-shadow: 0 1px 0 0 !important;
 }
